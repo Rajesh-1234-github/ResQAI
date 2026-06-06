@@ -13,8 +13,8 @@ app.use(express.json())
 // Static Folder for Uploaded Files
 app.use("/uploads", express.static("uploads"))
 
-mongoose.connect("mongodb://127.0.0.1:27017/resqai")
-.then(() => console.log("MongoDB Connected"))
+mongoose.connect(process.env.MONGO_URI)
+.then(() => console.log("MongoDB Atlas Connected"))
 .catch((err) => console.log(err))
 
 app.use("/api", reportRoutes)
