@@ -114,23 +114,23 @@ function Report() {
               {translations[language].selectDisaster}
             </option>
 
-            <option>
+            <option value="Flood">
               {translations[language].flood}
             </option>
 
-            <option>
+             <option value="Fire">
               {translations[language].fire}
             </option>
 
-            <option>
+            <option value="Earthquake">
               {translations[language].earthquake}
             </option>
 
-            <option>
+            <option value="Landslide">
               {translations[language].landslide}
             </option>
 
-            <option>
+           <option value="Cyclone">
               {translations[language].cyclone}
             </option>
 
@@ -147,19 +147,19 @@ function Report() {
               {translations[language].selectSeverity}
             </option>
 
-            <option>
+            <option value="Critical">
               {translations[language].critical}
             </option>
 
-            <option>
+            <option value="High">
               {translations[language].high}
             </option>
 
-            <option>
+            <option value="Medium">
               {translations[language].medium}
             </option>
 
-            <option>
+            <option value="Low">
               {translations[language].low}
             </option>
 

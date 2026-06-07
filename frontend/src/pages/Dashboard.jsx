@@ -119,17 +119,19 @@ function Dashboard() {
 
   }
 
-  const disasterCounts = {}
+  const disasterCounts = {
+  Flood: 0,
+  Fire: 0,
+  Earthquake: 0,
+  Landslide: 0,
+  Cyclone: 0
+}
 
-  reports.forEach((report) => {
-
-    if (disasterCounts[report.disaster]) {
-      disasterCounts[report.disaster] += 1
-    } else {
-      disasterCounts[report.disaster] = 1
-    }
-
-  })
+reports.forEach((report) => {
+  if (disasterCounts.hasOwnProperty(report.disaster)) {
+    disasterCounts[report.disaster]++
+  }
+})
 
   const chartData = Object.keys(disasterCounts).map((key) => ({
     name: key,

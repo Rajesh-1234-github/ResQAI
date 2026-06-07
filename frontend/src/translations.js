@@ -77,7 +77,15 @@ cyclone: "Cyclone",
 fire: "Fire",
 reports: "Reports",
 
-earthquake: "Earthquake", landslide: "Landslide", fire: "Fire", cyclone: "Cyclone", flood: "Flood"
+earthquake: "Earthquake", landslide: "Landslide", fire: "Fire", cyclone: "Cyclone", flood: "Flood",
+
+critical: "Critical",
+high: "High",
+medium: "Medium",
+low: "Low",
+reportSuccess: "Report submitted successfully!",
+reportError: "Failed to submit report. Please try again.",
+selectedFile: "Selected File:"
     
   },
 
@@ -155,7 +163,14 @@ cyclone: "चक्रवात",
 fire: "आग",
 reports: "रिपोर्ट्स",
 
-earthquake: "भूकंप", landslide: "भूस्खलन", fire: "आग", cyclone: "चक्रवात", flood: "बाढ़"
+earthquake: "भूकंप", landslide: "भूस्खलन", fire: "आग", cyclone: "चक्रवात", flood: "बाढ़",
+critical: "अत्यंत गंभीर",
+high: "उच्च",
+medium: "मध्यम",
+low: "निम्न",
+reportSuccess: "रिपोर्ट सफलतापूर्वक जमा हुई!",
+reportError: "रिपोर्ट जमा करने में विफल।",
+selectedFile: "चयनित फ़ाइल:"
   },
 
   te: {
@@ -236,7 +251,15 @@ landslide: "కొండచరియలు విరిగిపడటం",
 earthquake: "భూకంపం",
 fire: "అగ్ని ప్రమాదం",
 cyclone: "తుఫాను",
-flood: "వరద"
+flood: "వరద",
+
+critical: "అత్యంత తీవ్రం",
+high: "అధికం",
+medium: "మధ్యస్థం",
+low: "తక్కువ",
+reportSuccess: "నివేదిక విజయవంతంగా సమర్పించబడింది!",
+reportError: "నివేదిక సమర్పించడం విఫలమైంది.",
+selectedFile: "ఎంచుకున్న ఫైల్:"
   },
 
   ta: {
@@ -302,8 +325,19 @@ flood: "వరద"
     description: "விளக்கம்",
     viewPdf: "PDF பார்க்க",
 
-    earthquake: "நிலநடுக்கம்", landslide: "மண் சரிவு", fire: "தீ", cyclone: "சுழற்புயல்", flood: "வெள்ளம்"
+    earthquake: "நிலநடுக்கம்", landslide: "மண் சரிவு", fire: "தீ", cyclone: "சுழற்புயல்", flood: "வெள்ளம்",
+
+    critical: "மிகவும் தீவிரம்",
+    high: "அதிகம்",
+    medium: "நடுத்தரம்",
+    low: "குறைவு",
+    reportSuccess: "அறிக்கை வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது!",
+reportError: "அறிக்கை சமர்ப்பிக்க தோல்வி. மீண்டும் முயற்சிக்கவும்.",
+selectedFile: "தேர்ந்தெடுக்கப்பட்ட கோப்பு:"
+
   },
+
+  
 
   ml: {
 
@@ -368,7 +402,15 @@ flood: "వరద"
     description: "വിവരണം",
     viewPdf: "PDF കാണുക",
 
-    earthquake: "ഭൂകമ്പം", landslide: "മണ്ണിടിച്ചിൽ", fire: "തീപ്പിടിത്തം", cyclone: "ചുഴലിക്കാറ്റ്", flood: "പ്രളയം"
+    earthquake: "ഭൂകമ്പം", landslide: "മണ്ണിടിച്ചിൽ", fire: "തീപ്പിടിത്തം", cyclone: "ചുഴലിക്കാറ്റ്", flood: "പ്രളയം",
+
+    critical: "അതീവ ഗുരുതരം",
+    high: "ഉയർന്നത്",
+    medium: "മധ്യമം",
+    low: "കുറഞ്ഞത്",
+    reportSuccess: "റിപ്പോർട്ട് വിജയകരമായി സമർപ്പിച്ചു!",
+reportError: "റിപ്പോർട്ട് സമർപ്പിക്കാൻ പരാജയപ്പെട്ടു. വീണ്ടും ശ്രമിക്കുക.",
+selectedFile: "തിരഞ്ഞെടുത്ത ഫയൽ:"
   },
 
   kn: {
@@ -434,7 +476,15 @@ flood: "వరద"
     description: "ವಿವರಣೆ",
     viewPdf: "PDF ನೋಡಿ",
 
-    earthquake: "ಭೂಕಂಪ", landslide: "ಭೂ ಕುಸಿತ", fire: "ಬೆಂಕಿ", cyclone: "ಚಂಡಮಾರುತ", flood: "ನೆರೆ"
+    earthquake: "ಭೂಕಂಪ", landslide: "ಭೂ ಕುಸಿತ", fire: "ಬೆಂಕಿ", cyclone: "ಚಂಡಮಾರುತ", flood: "ನೆರೆ",
+
+    critical: "ಅತ್ಯಂತ ತೀವ್ರ",
+    high: "ಹೆಚ್ಚು",
+    medium: "ಮಧ್ಯಮ",
+    low: "ಕಡಿಮೆ",
+    reportSuccess: "ವರದಿ ಯಶಸ್ವಿಯಾಗಿ ಸಲ್ಲಿಸಲಾಗಿದೆ!",
+reportError: "ವರದಿ ಸಲ್ಲಿಸಲು ವಿಫಲವಾಗಿದೆ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+selectedFile: "ಆಯ್ಕೆಮಾಡಿದ ಫೈಲ್:"
   },
 
   ur: {
@@ -500,7 +550,15 @@ flood: "వరద"
     description: "تفصیل",
     viewPdf: "PDF دیکھیں",
 
-    earthquake: "زلزلہ", landslide: "لینڈ سلائیڈ", fire: "آگ", cyclone: "طوفان", flood: "سیلاب"
+    earthquake: "زلزلہ", landslide: "لینڈ سلائیڈ", fire: "آگ", cyclone: "طوفان", flood: "سیلاب",
+
+     critical: "انتہائی سنگین",
+    high: "زیادہ",
+    medium: "درمیانہ",
+    low: "کم",
+    reportSuccess: "رپورٹ کامیابی سے جمع ہو گئی!",
+reportError: "رپورٹ جمع کرنے میں ناکامی۔ دوبارہ کوشش کریں۔",
+selectedFile: "منتخب فائل:"
   }
 
 }
